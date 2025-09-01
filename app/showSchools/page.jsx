@@ -10,7 +10,7 @@ const SchoolCard = ({ school }) => (
     <div className="school-image">
       {school.image ? (
         <img 
-          src={`http://localhost:5000/uploads/${school.image}`} 
+          src={`https://school-backend-rbuy.onrender.com/uploads/${school.image}`} 
           alt={school.name} 
         />
       ) : (
