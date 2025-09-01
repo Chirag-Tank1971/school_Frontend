@@ -9,7 +9,7 @@ export default function Home() {
         <title>School Management System</title>
         <meta name="description" content="Manage school information efficiently" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={true} />
       </Head>
 
       <main className="main">
