@@ -102,7 +102,7 @@ export default function ShowSchools() {
   const fetchSchools = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:5000/api/schools');
+      const response = await axios.get('https://school-backend-rbuy.onrender.com/api/schools');
       setSchools(response.data);
       setError('');
     } catch (error) {
